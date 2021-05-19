@@ -51,10 +51,10 @@ metadata:
     allow.http: "false"
 spec:
   rules:
-  - host: go.rancher.dev-ops-ninja.com
+  - host: go.rancher.lwmon.com.br
     http:
       paths:
         - path: /
           backend:
             serviceName: go-service
-            servicePort: 80
+            servicePort: 8082
